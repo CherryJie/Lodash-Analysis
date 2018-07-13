@@ -6,7 +6,7 @@
 
 ### lodash 源码阅读 —— difference
 * 该方法是用于过滤，第一个参数是需要过滤的数组，第二个参数是需要被过滤掉（移除）的元素集合，该方法返回的传入的第一个参数的子集或者自身。
-* 用法：_.difference(value, [values]);
+* 用法：_.difference(array, [values]);
 * [lodash源码仓库](https://github.com/lodash/lodash/blob/master/difference.js)
 
 * 简单分析：如果写为 `_.difference(A, B)` 就相当于求 A-B，即 A 和 B 的差集，也叫做相对补集，就是属于 A 但是不属于 B 的元素。
